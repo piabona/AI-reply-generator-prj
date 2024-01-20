@@ -6,7 +6,11 @@
 - 팀 프로젝트 [발표자료 pdf]()
 
 ## Summary
+- 총 2가지 서비스로 분리하여 제공 기획
 - 1. 리뷰 분석 서비스 
+  - Multi label Classification 문제 : Zero shot 모델
+- 2. 
+- Streamlit 활용 서비스화
 
 ------------------------------
 
@@ -17,8 +21,7 @@
 #### Data Preprocessing 
 
 #### Model(Pretrained model)
-- ML CatBoost, LightGBM, NGBoost
-- Optuna hyperparameter tuning
+- Random Forest 
 #### Ensemble 
 - 10Fold, SEED ensemble
 
@@ -32,7 +35,7 @@
 - 문법적 요소
 
 #### Model(Pretrained model)
-- KoGPT
+- KoGPT Bert기반 다수 모델, LSTM 등
   
 #### Ensemble 
 - 10Fold, SEED ensemble
