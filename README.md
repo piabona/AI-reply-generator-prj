@@ -21,6 +21,6 @@
   - **Extension** : 부가 서비스 기획 (긍부정 지수 추이 / 고객별 온도 지수 등)
 
 ## Environment
-- AWS / VS code / Google colab
+- AWS / Google colab
 - OS: Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-162-generic x86_64)
 - Environment: Anaconda 4.10.3
