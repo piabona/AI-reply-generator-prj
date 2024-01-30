@@ -16,7 +16,7 @@
 
 - **2. 리뷰 분석 서비스 (Text Analysis AI)** - 리뷰의 키워드를 분석하여 리뷰가 맛/가격/서비스 어떤 내용인지 분류 
   - Data Collection, Preprocessing, Augmentation, Presentation 서비스 1과 동일
-  - **Model** : MoritzLauer/mDeBERTa model 멀티라벨 fine-tuning 학습 
+  - **Model** : MoritzLauer/mDeBERTa model fine-tuning 멀티라벨 분류 학습 
   - **Refinement** : Fine-tuned 모델 + Zeroshot base 모델 산술평균 앙상블하여 최종 라벨 생성
   - **Extension** : 부가 서비스 기획 (긍부정 지수 추이 / 고객별 온도 지수 등)
 
