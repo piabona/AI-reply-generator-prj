@@ -10,13 +10,13 @@
   - **Data Collection** : 배달앱 리뷰 37,140개 크롤링
   - **Preprocessing** : ID, 가게/음식/지점명 masking
   - **Augmentation** : GPT 활용 부정 데이터로 긍부정 비율 조정
-  - **Model** : KoGPT2-base-v2 model fine-tuning 리뷰-답변 학습
+  - **Model** : **KoGPT2-base-v2 model fine-tuning 리뷰-답변 학습**
   - **Refinement** : 유사도 비교 통한 최종 답변 생성 
   - **Presentation** : Streamlit 구현
 
 - **2. 리뷰 분석 서비스 (Text Classification AI)** - 리뷰의 키워드를 분석하여 리뷰가 맛/가격/서비스 중 어떤 카테고리에 속하는지 분류 
   - Data Collection, Preprocessing, Augmentation, Presentation 서비스 1과 동일
-  - **Model** : MoritzLauer/mDeBERTa model fine-tuning 멀티라벨 분류 학습 
+  - **Model** : **MoritzLauer/mDeBERTa model fine-tuning 멀티라벨 분류 학습** 
   - **Refinement** : Fine-tuned 모델 + Zeroshot base 모델 산술평균 앙상블하여 최종 라벨 생성
   - **Extension** : 부가 서비스 기획 (긍부정 지수 추이 / 고객별 온도 지수 등)
 
