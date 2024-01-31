@@ -12,7 +12,7 @@
   - **Preprocessing** : ID, 가게/음식/지점명 masking
   - **Augmentation** : GPT 활용 부정 데이터로 긍부정 비율 조정
   - **Model** : KoGPT2-base-v2 model fine-tuning 리뷰-답변 학습
-  - **Refinement** : 유사도 비교 통한 최종 답변 생성 
+  - **Refinement** : 리뷰와의 유사도(cosine, jaccard) 비교 통한 최종 답변 생성 
   - **Presentation** : Streamlit 구현
 
 - **2. 리뷰 분석 서비스 (Text Classification AI)** - 리뷰의 키워드를 분석하여 리뷰가 맛/가격/서비스 중 어떤 카테고리에 속하는지 분류 
