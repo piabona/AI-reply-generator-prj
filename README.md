@@ -10,7 +10,7 @@
 - **1. 답변 생성 서비스 (Text Generative AI)** - 고객의 리뷰에 대한 사장님의 자연스러운 답변을 자동 생성
   - **Data Collection** : 배달앱 리뷰 37,140개 크롤링
   - **Preprocessing** : ID, 가게/음식/지점명 masking
-  - **Augmentation** : GPT 활용 부정 데이터로 긍부정 비율 조정
+  - **Augmentation** : GPT API 활용하여 추출한 부정 데이터로 긍부정 비율 조정
   - **Model** : KoGPT2-base-v2 model fine-tuning 리뷰-답변 학습
   - **Refinement** : 리뷰와의 유사도(cosine, jaccard) 비교 통한 최종 답변 생성 
   - **Presentation** : Streamlit 구현
